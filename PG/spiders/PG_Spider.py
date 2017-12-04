@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import pprint
 
 # response.xpath('//font/a/@href').extract()
 
@@ -12,4 +13,14 @@ class PgSpiderSpider(scrapy.Spider):
         article_link = response.xpath('//font/a/@href').extract()
         article_name = response.xpath('//font/a/text()').extract()
 
-        yield {'Article Name': article_name, 'Article URL': article_link}
+        #yield {'Article Name': article_name, 'Article URL': article_link}
+
+        articles = {}
+
+        num = 0
+        for item in article_link:
+            articles[article_name[num]] = "http://paulgraham.com/" + item
+            num+=1
+
+        # to extract each article: sel.xpath('//font/text()').extract()
+        print(articles.items())
