@@ -1,33 +1,33 @@
 # -*- coding: utf-8 -*-
+from scrapy.selector import Selector
 import scrapy
 import pprint
 
-# response.xpath('//font/a/@href').extract()
+from gtts import gTTS
+import os
+import textract
 
 class PgSpiderSpider(scrapy.Spider):
     name = 'PG_Spider'
-    #allowed_domains = ['http://www.paulgraham.com/articles.html']
     start_urls = ['http://paulgraham.com/articles.html']
 
     def parse(self, response):
-        article_link = response.xpath('//font/a/@href').extract()
-        article_name = response.xpath('//font/a/text()').extract()
-
-        #yield {'Article Name': article_name, 'Article URL': article_link}
-
-        articles = {}
-
-        num = 0
+        article_link = response.xpath('//font/a/@href').extract() 
+        articles = []
         for item in article_link:
-            articles[article_name[num]] = "http://paulgraham.com/" + item
-            num+=1
+            articles.append("http://paulgraham.com/" + item)
 
-
-        # to extract each article: sel.xpath('//font/text()').extract()
-        # print(articles.items())
-        for link in articles.values():
+        for link in articles:
             yield scrapy.Request(link, callback=self.parse_page)
 
+
     def parse_page(self, response):
-        body = response.xpath('//font/text()').extract()
-        print(body)
+        content = response.xpath('//font/text()').extract()
+        title = response.xpath('//img/@alt').extract()
+        #    item.rstrip()
+        #" ".join(content) 
+        #text = textract.process(content)
+        #text = text.decode('utf-8')
+        #tts = gTTS(text=text, lang='en')
+        #tts.save(title + ".mp3")
+        yield {'Title': title, 'Content': content}
