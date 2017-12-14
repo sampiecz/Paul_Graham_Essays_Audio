@@ -1,0 +1,707 @@
+    1  sudo apt-get install git
+    2  sudo apt-get install gimp
+    3  cd ~Documents
+    4  ls
+    5  cd /Projects
+    6  ls
+    7  cd Projects
+    8  ls
+    9  clear
+   10  cd Scrape
+   11  ls
+   12  cd PG
+   13  ls
+   14  tree
+   15  scrapy crawl PG_Spider
+   16  workon PG
+   17  scrapy crawl PG_Spider
+   18  ls
+   19  cd Projects
+   20  ls
+   21  cd Scrape
+   22  ls
+   23  workon PG
+   24  clear
+   25  tree
+   26  scrapy crawl PG_Spider
+   27  cd PG
+   28  ls
+   29  scrapy crawl PG_Spider
+   30  tree
+   31  ls
+   32  cd PG
+   33  ls
+   34  cd spiders
+   35  ls
+   36  vim PG_Spider.py
+   37  scrapy crawl PG_Spider
+   38  clear
+   39  ls
+   40  vim PG_Spider.py 
+   41  clear
+   42  cd ~
+   43  deactivate
+   44  ssh z1732715@turing.cs.niu.edu
+   45  clear
+   46  cd ~/Doc
+   47  cd ~/Documents/
+   48  ls
+   49  vim New_Home_Media_Query.css 
+   50  cat New_Home_Media_Query.css 
+   51  vim New_Home_Media_Query.css 
+   52  cat New_Home_Media_Query.css 
+   53  vim New_Home_Media_Query.css 
+   54  cat New_Home_Media_Query.css 
+   55  vim New_Home_Media_Query.css 
+   56  cat New_Home_Media_Query.css 
+   57  vim New_Home_Media_Query.css 
+   58  cat > New_Home_Media_Query.css 
+   59  vim New_Home_Media_Query.css 
+   60  clear
+   61  cat New_Home_Media_Query.css 
+   62  vim New_Home_Media_Query.css 
+   63  clear
+   64  cat New_Home_Media_Query.css 
+   65  vim New_Home_Media_Query.css 
+   66  cat New_Home_Media_Query.css 
+   67  vim New_Home_Media_Query.css 
+   68  clear
+   69  cat New_Home_Media_Query.css 
+   70  vim New_Home_Media_Query.css 
+   71  cat New_Home_Media_Query.css 
+   72  clear
+   73  cat New_Home_Media_Query.css 
+   74  clear
+   75  cat New_Home_Media_Query.css 
+   76  ls
+   77  cd Documents
+   78  ls
+   79  vim New_Home_Media_Query.css 
+   80  clear
+   81  cat New_Home_Media_Query.css 
+   82  vim New_Home_Media_Query.css 
+   83  clear
+   84  vim New_Home_Media_Query.css 
+   85  clear
+   86  cat New_Home_Media_Query.css 
+   87  clear
+   88  vim New_Home_Media_Query.css 
+   89  clear
+   90  cat New_Home_Media_Query.css 
+   91  vim New_Home_Media_Query.css 
+   92  clear
+   93  cat New_Home_Media_Query.css 
+   94  vim New_Home_Media_Query.css 
+   95  clear
+   96  cat New_Home_Media_Query.css 
+   97  vim New_Home_Media_Query.css 
+   98  cat New_Home_Media_Query.css 
+   99  vim New_Home_Media_Query.css 
+  100  clear
+  101  cat New_Home_Media_Query.css 
+  102  vim New_Home_Media_Query.css 
+  103  cat New_Home_Media_Query.css 
+  104  vim New_Home_Media_Query.css 
+  105  clear
+  106  cat New_Home_Media_Query.css 
+  107  clear
+  108  vim New_Home_Media_Query.css
+  109  clear
+  110  cat New_Home_Media_Query.css 
+  111  vim New_Home_Media_Query.css
+  112  clear
+  113  cat New_Home_Media_Query.css 
+  114  vim New_Home_Media_Query.css
+  115  clear
+  116  cat New_Home_Media_Query.css 
+  117  vim New_Home_Media_Query.css
+  118  clear
+  119  cat New_Home_Media_Query.css 
+  120  vim New_Home_Media_Query.css
+  121  clear
+  122  cat New_Home_Media_Query.css 
+  123  vim New_Home_Media_Query.css
+  124  clear
+  125  cat New_Home_Media_Query.css 
+  126  vim New_Home_Media_Query.css
+  127  clear
+  128  cat New_Home_Media_Query.css 
+  129  clear
+  130  exit
+  131  man ps
+  132  ps -ef
+  133  ls
+  134  cd Documents/
+  135  ls
+  136  vim New_Home_Media_Query.css 
+  137  clear
+  138  cat New_Home_Media_Query.css 
+  139  vim New_Home_Media_Query.css 
+  140  clear
+  141  cat New_Home_Media_Query.css 
+  142  vim New_Home_Media_Query.css 
+  143  clear
+  144  cat New_Home_Media_Query.css 
+  145  clear
+  146  vim New_Home_Media_Query.css 
+  147  clear
+  148  cat New_Home_Media_Query.css 
+  149  clear
+  150  vim New_Home_Media_Query.css 
+  151  clear
+  152  cat New_Home_Media_Query.css 
+  153  vim New_Home_Media_Query.css 
+  154  clear
+  155  cat New_Home_Media_Query.css 
+  156  vim New_Home_Media_Query.css 
+  157  clear
+  158  cat New_Home_Media_Query.css 
+  159  vim New_Home_Media_Query.css 
+  160  clear
+  161  cat New_Home_Media_Query.css 
+  162  vim New_Home_Media_Query.css 
+  163  clear
+  164  cat New_Home_Media_Query.css 
+  165  clear
+  166  vim New_Home_Media_Query.css 
+  167  clear
+  168  cat New_Home_Media_Query.css 
+  169  clear
+  170  vim New_Home_Media_Query.css 
+  171  clear
+  172  cat New_Home_Media_Query.css 
+  173  vim New_Home_Media_Query.css 
+  174  clear
+  175  cat New_Home_Media_Query.css 
+  176  ssh z1732715@turing.cs.niu.edu
+  177  clear
+  178  cd ~/Documents/
+  179  ls
+  180  vim New_Home_Media_Query.css 
+  181  clear
+  182  cat New_Home_Media_Query.css 
+  183  vim New_Home_Media_Query.css 
+  184  clear
+  185  cat New_Home_Media_Query.css 
+  186  vim New_Home_Media_Query.css 
+  187  clear
+  188  cat New_Home_Media_Query.css 
+  189  vim New_Home_Media_Query.css 
+  190  clear
+  191  cat New_Home_Media_Query.css 
+  192  clear
+  193  vim New_Home_Media_Query.css 
+  194  clear
+  195  cat New_Home_Media_Query.css 
+  196  vim New_Home_Media_Query.css 
+  197  clear
+  198  cat New_Home_Media_Query.css 
+  199  vim New_Home_Media_Query.css 
+  200  clear
+  201  cat New_Home_Media_Query.css 
+  202  vim New_Home_Media_Query.css 
+  203  clear
+  204  cat New_Home_Media_Query.css 
+  205  vim New_Home_Media_Query.css 
+  206  clear
+  207  cat New_Home_Media_Query.css 
+  208  vim New_Home_Media_Query.css 
+  209  clear
+  210  ssh z1732715@turing.cs.niu.edu
+  211  clear
+  212  ssh z1732715@turing.cs.niu.edu
+  213  clear
+  214  make clean
+  215  clear
+  216  make
+  217  clear
+  218  ssh z1732715@turing.cs.niu.edu
+  219  ssh z1732715@turing.cs.niu.edu
+  220  ls
+  221  cd Documents/
+  222  ls
+  223  cd Scho
+  224  cd School/
+  225  ls
+  226  cd CSCI330/
+  227  ls
+  228  cd Programs/
+  229  ls
+  230  cd  "Unit 18 - TCP Server"/
+  231  ls
+  232  g++ -o TCPServerFork.cxx
+  233  g++ -o TCPServer TCPServerFork.cxx
+  234  ls
+  235  clear
+  236  ls
+  237  vim TCPServerFork.cxx 
+  238  clear
+  239  vim TCPServerFork.cxx 
+  240  ls
+  241  g++ -o TCPClient TCPClient.cxx 
+  242  ./TCPClient
+  243  ./TCPClient 5000
+  244  ./TCPClient localhost 5000
+  245  ./TCPClient localhost 5000 test
+  246  cd ~/Downloads
+  247  ls
+  248  sftp z1732715@turing.cs.niu.edu
+  249  clear
+  250  ssh z1732715@turing.cs.niu.edu
+  251  sftp z1732715@turing.cs.niu.edu
+  252  ssh z1732715@turing.cs.niu.edu
+  253  ls
+  254  ./TCPServer
+  255  ./TCPServer 5000
+  256  ls
+  257  sftp z1732715@turing.cs.niu.edu
+  258  clear
+  259  cd ~
+  260  clear
+  261  ssh z1732715@turing.cs.niu.edu
+  262  wxw85mdsx2p6b
+  263  ssh z1732715@turing.cs.niu.edu
+  264  clear
+  265  ./Server 5555
+  266  clear
+  267  s
+  268  clear
+  269  ls
+  270  cd ~
+  271  ls
+  272  cd Documents/
+  273  ls
+  274  cd School
+  275  ls
+  276  cd CSCI330/
+  277  ls
+  278  cd Programs/
+  279  ls
+  280  cd "Unit 18 - TCP Server"/
+  281  ls
+  282  vim TCPServerReadDir.cxx
+  283  vim Server.cpp
+  284  clear
+  285  ssh z1732715@turing.cs.niu.edu
+  286  ssh z1732715@turing.cs.niu.edu
+  287  clera
+  288  clear
+  289  sudo apt-get install g++
+  290  clear
+  291  ls
+  292  touch TCPTest.cpp
+  293  vim TCPTest.cpp 
+  294  cat > TCPTest.cpp 
+  295  vim TCPTest.cpp 
+  296  clear
+  297  ls
+  298  mv TCPTest.cpp Projects
+  299  ls
+  300  cd Projects/
+  301  ls
+  302  mkdir TCP
+  303  mv TCPTest.cpp TCP
+  304  cd TCP
+  305  ls
+  306  touch Client.cpp
+  307  cat > Client.cpp 
+  308  ls
+  309  mv TCPTest.cpp Server.cpp
+  310  clear
+  311  ls
+  312  vim Server.cpp 
+  313  clear
+  314  g++ -o Server Server.cpp 
+  315  g++ -o Client Client.cpp 
+  316  ./Client localhost 5555 "GET /"
+  317  ./Client localhost 5555 "GET /Server.cpp"
+  318  ./Client localhost 5555 "GET Server.cpp"
+  319  ls
+  320  vim Server.cpp 
+  321  clear
+  322  ssh z1732715@turing.cs.niu.edu
+  323  clear
+  324  ssh z1732715@turing.cs.niu.edu
+  325  clear
+  326  ssh z1732715@turing.cs.niu.edu
+  327  ssh z1732715@turing.cs.niu.edu
+  328  ssh z1732715@turing.cs.niu.edu
+  329  ls
+  330  clear
+  331  ssh z1732715
+  332  ssh z1732715@turing.cs.niu.edu
+  333  ls
+  334  cd IOTA
+  335  ls
+  336  ls -al
+  337  cd wallet
+  338  ls
+  339  ls -al
+  340  history
+  341  history | cat file
+  342  history | cat > file
+  343  vim file
+  344  rm file
+  345  npm start
+  346  sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev autotools-dev automake
+  347  git clone https://github.com/hyc/cpuminer-multi
+  348  ls
+  349  mv cpuminer-multi ~
+  350  cd ~
+  351  ls
+  352  cd cpuminer-multi/
+  353  ./autogen.sh
+  354  CFLAGS="-march=native" ./configure
+  355  make
+  356  sudo ./minerd -a cryptonight -o stratum+tcp://pool.minexmr.com:4444 -u WALLET_ADDRESS_HERE -p x -t 3
+  357  cd ~
+  358  wget https://downloads.getmonero.org/linux64
+  359  tar jxvf linux64
+  360  ./monero-wallet-cli
+  361  ls
+  362  cd monero-v0.11.1.0/
+  363  ./monero-wallet-cli
+  364  clear
+  365  ps
+  366  ls
+  367  ps 
+  368  man p
+  369  xrandr
+  370  l
+  371  rm -rf cpuminer-multi/
+  372  cd IOTA
+  373  ls
+  374  cd wallet
+  375  npm start
+  376  ps
+  377  ls
+  378  cd IOTA/
+  379  ls
+  380  cd wallet
+  381  npm start
+  382  ls
+  383  cd IOTA/
+  384  ls
+  385  cd wallet/
+  386  npm start
+  387  exit
+  388  exit
+  389  exit
+  390  exit
+  391  ls
+  392  ls -al
+  393  cd vimrc
+  394  cd terminal-preferences/
+  395  ls
+  396  git status
+  397  git pull
+  398  ls
+  399  ls -al
+  400  cp .vimrc ..
+  401  clear
+  402  cd ..
+  403  clear
+  404  vim .vimrc
+  405  vim .vimrc
+  406  sudo apt-get install 
+  407  vim .vimrc
+  408  clear
+  409  vim .vimrc
+  410  vim .vimrc
+  411  vim .vimrc
+  412  clear
+  413  git clone https://github.com/powerline/fonts
+  414  ls
+  415  cd fonts
+  416  ls
+  417  ./install.sh
+  418  cd ..
+  419  rm -rf fonts
+  420  clear
+  421  exit
+  422  vim .vimrc
+  423  exit
+  424  exit
+  425  sudo apt-get install tmux
+  426  clear
+  427  man tmux
+  428  tmux
+  429  clear
+  430  tmux
+  431  exit
+  432  ls
+  433  vim pia-nm.sh 
+  434  clear
+  435  vim pia-nm.sh 
+  436  clear
+  437  tmux
+  438  ls
+  439  cd IOTA/wallet
+  440  ls
+  441  npm start
+  442  ls
+  443  ssh z1732715@turing.cs.niu.edu
+  444  clear
+  445  ls
+  446  touch Stack.cpp
+  447  touch Queue.cpp
+  448  vim Stack.cpp
+  449  ls
+  450  cd Projects
+  451  ls
+  452  cd C++
+  453  ls
+  454  vim Stack.h
+  455  touch Stack.cpp
+  456  vim Stack.h
+  457  ls
+  458  rm *
+  459  ls
+  460  clear
+  461  touch Product.h
+  462  touch Product.cpp
+  463  vim Product.h
+  464  cd Projects/C++
+  465  ls
+  466  rm -f *.cpp *.h
+  467  ls
+  468  touch Book.h
+  469  vim Book.h
+  470  vim Stack.h
+  471  ls
+  472  workon Scrape
+  473  workon scrape
+  474  clear
+  475  lsvirtualenv
+  476  python --version
+  477  pip --version
+  478  ls
+  479  clear
+  480  pip3 --version
+  481  clear
+  482  pip3 install virtualenv
+  483  pip3 install virtualenvwrapper
+  484  clear
+  485  workon scrape
+  486  clear
+  487  ls -al
+  488  ls *.
+  489  ls *.*
+  490  ls
+  491  clear
+  492  ls
+  493  clear
+  494  ls -al .*
+  495  workon PG
+  496  vim .bashrc
+  497  python
+  498  clear
+  499  exit
+  500  exit
+  501  tmux
+  502  workon PG
+  503  exit
+  504  workon PG
+  505  deactivate
+  506  clear
+  507  workon PG
+  508  ls
+  509  cd Projects/
+  510  ls
+  511  cd Scrape
+  512  ls
+  513  cd PG
+  514  ls
+  515  clear
+  516  tree
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd ..
+  521  ls
+  522  cd Scrape
+  523  mv quotes_spider/ ..
+  524  cd ..
+  525  deactivate
+  526  mkvirtualenv quotes_spider
+  527  pip3 install scrapy
+  528  ls
+  529  cd quotes_spider/
+  530  ls
+  531  clear
+  532  tree
+  533  vim quotes_spider/spiders/quotes.py 
+  534  vim ~/.tmux.conf
+  535  exit
+  536  man tmux
+  537  exit
+  538  man tmux
+  539  clear
+  540  scrapy shell 'http://quotes.toscrape.com'
+  541  workon quotes_spider
+  542  clear
+  543  scrapy shell 'http://quotes.toscrape.com'
+  544  clear
+  545  ls
+  546  clear
+  547  exit
+  548  workon PG
+  549  clear
+  550  pip3 install textract
+  551  exit
+  552  ls
+  553  cd Projects/
+  554  ls
+  555  cd Scrape/
+  556  ls
+  557  cd PG/
+  558  ls
+  559  cat data.json
+  560  clear
+  561  pwd
+  562  ls
+  563  cd Pictures
+  564  ls
+  565  mkdir PICS
+  566  clear
+  567  ls
+  568  rm PICS
+  569  ls
+  570  rm -rf PICS
+  571  ls
+  572  clear
+  573  cd ..
+  574  clear
+  575  ls
+  576  workon quotes_spider
+  577  clear
+  578  cd Projects/quotes_spider/quotes_spider/
+  579  ls
+  580  cear
+  581  clear
+  582  deactivate && workon PG
+  583  clear
+  584  cd ../../PG
+  585  cd ../../
+  586  ls
+  587  cd Scrape/
+  588  cd PG
+  589  ls
+  590  clear
+  591  scrapy crawl myspider -o data.json
+  592  clear
+  593  ls
+  594  clear
+  595  scrapy crawl PG_Spider -o data.json
+  596  ls
+  597  clear
+  598  ls
+  599  cat data.json 
+  600  clear
+  601  scrapy
+  602  scrapy shell 'http://paulgraham.com/
+  603  sun.html"
+  604  clear
+  605  scrapy shell 'http://paulgraham.com/sun.html'
+  606  clear
+  607  scrapy
+  608  scrapy crawl PG_Spider -o data.json
+  609  pip3 install gtts
+  610  pip3 install textract
+  611  pip3 install swig
+  612  pip3 install pocketsphinx
+  613  apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig
+  614  sudo apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig
+  615  pip3 install pocketsphinx
+  616  apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig
+  617  sudo apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig
+  618  pip3 install textract
+  619  sudo apt-get update
+  620  sudo apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig
+  621  pip3 install textract
+  622  pip3 install zlib1g
+  623  clear
+  624  pip3 install update
+  625  pip3
+  626  sudo apt-get install poppler
+  627  sudo apt-get install xquartz
+  628  sudo apt-get install antiword
+  629  sudo apt-get install unrtf
+  630  sudo apt-get install tesseract
+  631  sudo apt-get install swig
+  632  sudo apt autoremove
+  633  sudo apt-get install pulse-adio
+  634  clear
+  635  exit
+  636  workon PG
+  637  cd Projects/Scrape/PG/
+  638  ls
+  639  clear
+  640  python3
+  641  exit
+  642  ls
+  643  cd Projects
+  644  ls
+  645  cd Scrape/PG
+  646  ls
+  647  clear
+  648  pwd
+  649  clear
+  650  exit
+  651  workon PG
+  652  ls
+  653  cd Projects/Scrape/PG
+  654  clear
+  655  scrapy crawl PG_Spider
+  656  pip3 install textract
+  657  sudo apt-get install swig
+  658  sudo apt-get upgrade
+  659  pip3 uninstall -y pockersphinx
+  660  pip3 install pockersphinx
+  661  pip3 install pocketsphinx
+  662  pip3 uninstall -y pocketsphinx
+  663  pip3 install pocketsphinx
+  664  sudo apt-get install pulseaudio
+  665  pip3
+  666  pip3 freeze
+  667  pip3 install pocketsphinx
+  668  sudo apt-get install swig
+  669  pip3 install swig
+  670  sudo apt-get install libpulse-dev --yes
+  671  sudo apt-get update
+  672  sudo apt-get install pocketsphinx
+  673  pip3 install pocketsphinx
+  674  clear
+  675  exit
+  676  workon quotes_spider
+  677  clear
+  678  ls
+  679  cd Projects/quotes_spider/quotes_spider/spiders/
+  680  ls
+  681  vim quotes.py 
+  682  clear
+  683  exit
+  684  workon PG
+  685  clear
+  686  cd Projects/
+  687  ls
+  688  cd Scrape/
+  689  cd PG
+  690  ls
+  691  clear
+  692  ls
+  693  rm stringjson.txt 
+  694  rm stringJson.txt 
+  695  ls
+  696  clear
+  697  ls
+  698  scrapy crawl PG_Spider
+  699  pip3 install textract
+  700  scrapy crawl PG_Spider
+  701  exit
+  702  clear
+  703  vim ~/.tmux.conf
+  704  exit
+  705  workon PG
+  706  ls
+  707  history | cat > history

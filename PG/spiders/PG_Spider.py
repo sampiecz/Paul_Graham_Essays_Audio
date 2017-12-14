@@ -22,8 +22,18 @@ class PgSpiderSpider(scrapy.Spider):
 
 
     def parse_page(self, response):
-        content = response.xpath('//font/text()').extract()
-        title = response.xpath('//img/@alt').extract()
+        content = response.xpath('//font[1]/text()').extract()
+        title = response.xpath('//img[1]/@alt').extract()
+
+        scrubbed_content = []
+        
+        for item in content:
+            if len(item) > 200:
+                try:
+                    scrubbed_content.append(item) 
+                except IndexError:
+                    pass
+        
         #    item.rstrip()
         #" ".join(content) 
         #text = textract.process(content)
