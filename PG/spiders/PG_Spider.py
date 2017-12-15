@@ -28,7 +28,12 @@ class PgSpiderSpider(scrapy.Spider):
 
         joined_raw_content = " ".join(raw_content) 
         soup = BeautifulSoup(joined_raw_content, 'html.parser')
-        content = soup.get_text()
+        no_html_tags = soup.get_text()
+        no_end_lines = no_html_tags.replace("\n"," ")
+        no_comma_slashes = no_end_lines.replace("\'", "'")
+        no_slashes = no_comma_slashes.replace("\\", "")
+        content = no_slashes
+
         
         #    item.rstrip()
         #" ".join(content) 
