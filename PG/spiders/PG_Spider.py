@@ -6,6 +6,7 @@ import pprint
 from gtts import gTTS
 import os
 import textract
+from bs4 import BeautifulSoup
 
 class PgSpiderSpider(scrapy.Spider):
     name = 'PG_Spider'
@@ -22,17 +23,12 @@ class PgSpiderSpider(scrapy.Spider):
 
 
     def parse_page(self, response):
-        content = response.xpath('//font[1]/text()').extract()
-        title = response.xpath('//img[1]/@alt').extract()
+        raw_content = response.xpath('//font').extract()
+        title = response.xpath('//img[1]/@alt').extract_first()
 
-        scrubbed_content = []
-        
-        for item in content:
-            if len(item) > 200:
-                try:
-                    scrubbed_content.append(item) 
-                except IndexError:
-                    pass
+        joined_raw_content = " ".join(raw_content) 
+        soup = BeautifulSoup(joined_raw_content, 'html.parser')
+        content = soup.get_text()
         
         #    item.rstrip()
         #" ".join(content) 
